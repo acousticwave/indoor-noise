@@ -1,0 +1,10 @@
+# Torch and torchaudio pinned to PyTorch 2.2 with CUDA 11.8 compatibility
+torch==2.2.0+cu118
+torchaudio==2.2.0+cu118
+# Install from official PyTorch wheels
+-f https://download.pytorch.org/whl/torch_stable.html
+
+# Core Python libraries
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
